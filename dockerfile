@@ -4,5 +4,4 @@ COPY . .
 
 WORKDIR /app
 
-RUN chown -R daemon:daemon htdocs &&\
-    chmod -R 755 htdocs
+RUN chmod -R 755 htdocs
